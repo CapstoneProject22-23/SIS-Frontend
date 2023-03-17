@@ -1,0 +1,18 @@
+.loginForm {
+  border: 10px;
+  border-color: aqua;
+  background-color: cornsilk;
+  border-radius: 25px;
+  padding: 1rem;
+}
+.loginForm i {
+  margin-top: 7px;
+}
+.logBtn {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 50px;
+}
+.loginForm h3 {
+  margin-right: 100px;
+}
