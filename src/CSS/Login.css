@@ -1,7 +1,7 @@
 .loginForm {
   border: 10px;
-  border-color: aqua;
-  background-color: cornsilk;
+  /* border-color: aqua; */
+  background-color: #03b5a3;
   border-radius: 25px;
   padding: 1rem;
 }
