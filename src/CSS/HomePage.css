@@ -1,4 +1,7 @@
-.main{
-    background-color:#212b38 ;
-  
+.main {
+  background-color: #212b38;
+}
+.home {
+  display: flex;
+  flex-direction: row;
 }

@@ -3,6 +3,7 @@ import "../CSS/Header.css";
 import Popup from "reactjs-popup";
 import Login from "./Login";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -18,9 +19,11 @@ export default function Header() {
       <div>
         <Popup
           trigger={
+            
             <button id="login" className="btn btn-primary">
               Login
             </button>
+            
           }
           modal
           nested

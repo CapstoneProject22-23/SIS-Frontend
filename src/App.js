@@ -3,12 +3,8 @@ import HomePage from "./Components/HomePage";
 function App() {
   return (
     <>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <HomePage />
-      </div>
+      <Header />
+      <HomePage />
     </>
   );
 }
