@@ -1,6 +1,20 @@
 import React from "react";
+import Header from "./Header";
 import "../CSS/Login.css";
+import { Link } from "react-router-dom";
 export default function Login(props) {
+
+ 
+
+ function Login1(){
+  
+  let btn = document.getElementById("login")
+
+  if(btn.innerHTML == "Login")
+    btn.innerHTML="Logout"
+ }
+  
+
   return (
     <div className="loginForm">
       <form className="container">
@@ -38,9 +52,11 @@ export default function Login(props) {
             Check me out
           </label>
         </div>
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
+        
+        <a className="btn btn-primary" href="/logged" onClick={Login1}>
+        Submit
+        </a>
+        
       </form>
     </div>
   );
