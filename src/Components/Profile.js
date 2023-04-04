@@ -1,17 +1,3 @@
-<<<<<<< Updated upstream
-import React from 'react'
-import Sidebar from './Sidebar'
-import "../CSS/Profile.css"
-
-export default function Profile() {
-  return (
-    <div className='profile'>
-      <Sidebar />
-      profile
-    </div>
-  )
-}
-=======
 import React from "react";
 import Info from "./ProfileComps/Info";
 import ProfilePic from "./ProfileComps/ProfilePic";
@@ -36,4 +22,3 @@ function Profile() {
 }
 
 export default Profile;
->>>>>>> Stashed changes

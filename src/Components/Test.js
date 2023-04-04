@@ -1,19 +1,3 @@
-<<<<<<< Updated upstream
-import React from 'react'
-import Sidebar from './Sidebar'
-
-export default function Test() {
-  return (
-    <div className='test'>
-      
-      <Sidebar />
-          Test 
-       
-      
-    </div>
-  )
-}
-=======
 import React from "react";
 
 function Test() {
@@ -25,4 +9,3 @@ function Test() {
 }
 
 export default Test;
->>>>>>> Stashed changes

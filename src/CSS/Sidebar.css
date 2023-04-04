@@ -18,7 +18,7 @@
   /* padding-left: 20%; */
   margin-top: 10px;
 }
-.sidebar Link:hover {
+.sidebar button:hover {
   background-color: #000000;
   border-left: 3px solid #fff;
   border-top-left-radius: 5px;
