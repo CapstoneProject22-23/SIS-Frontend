@@ -3,7 +3,7 @@ import "../../CSS/Profile.css";
 function Info() {
   return (
     <div className="card shadow-sm">
-      <div className="card-header border-0">
+      <div className="card-header border-0 bg-transparent">
         <h3 className="mb-0">Other Information</h3>
       </div>
       <div className="card-body ">

@@ -1,7 +1,7 @@
-import React, { Profiler } from "react";
+import React, { Profiler, useState } from "react";
 import "../CSS/HomePage.css";
 import Sidebar from "./Sidebar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useSubmit } from "react-router-dom";
 import Profile from "./Profile";
 import Attendence from "./Attendence";
 import Results from "./Results";
@@ -12,6 +12,7 @@ import TC from "./TC";
 import Bonafide from "./Bonafide";
 
 export default function HomePage() {
+  
   return (
     <div className="home">
       <Router>

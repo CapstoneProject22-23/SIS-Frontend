@@ -1,0 +1,12 @@
+.bonafideModule {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.btn-primary {
+  background-color: #2e3047;
+  border: none;
+}
+.header button:hover {
+  background-color: #000000;
+}

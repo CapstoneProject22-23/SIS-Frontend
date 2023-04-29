@@ -3,6 +3,8 @@ import "../CSS/Sidebar.css";
 import { Link } from "react-router-dom";
 export default function Sidebar(props) {
   const [selected, setSelected] = new useState("btn1");
+  const [mode, setMode] = new useState("staff");
+
   const clicked = () => {
     var id = window.event.target.id;
     setSelected(id);
@@ -42,6 +44,7 @@ export default function Sidebar(props) {
           Bonafide
         </button>
       </Link>
+
       <Link to="/home/tc">
         <button
           className={
@@ -49,6 +52,7 @@ export default function Sidebar(props) {
           }
           onClick={clicked}
           id="btn4"
+          hidden={mode == "student" ? true : false}
         >
           TC application
         </button>
