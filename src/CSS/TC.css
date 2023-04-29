@@ -1,0 +1,41 @@
+.TCModule {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: aliceblue;
+  column-gap: 0cm;
+}
+.TCinfo {
+  width: 50rem;
+}
+.TCinfo table {
+  border-color: white;
+}
+
+.selectType {
+  width: 30rem;
+}
+.selectDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.enrollRange {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+.btn-primary {
+  background-color: #2e3047;
+  border: none;
+}
+.header button:hover {
+  background-color: #000000;
+}
+.table1 button {
+  width: 50rem;
+  margin-bottom: 2rem;
+}

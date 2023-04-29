@@ -3,17 +3,11 @@ import Header from "./Header";
 import "../CSS/Login.css";
 import { Link } from "react-router-dom";
 export default function Login(props) {
+  function Login1() {
+    let btn = document.getElementById("login");
 
- 
-
- function Login1(){
-  
-  let btn = document.getElementById("login")
-
-  if(btn.innerHTML == "Login")
-    btn.innerHTML="Logout"
- }
-  
+    if (btn.innerHTML == "Login") btn.innerHTML = "Logout";
+  }
 
   return (
     <div className="loginForm">
@@ -52,11 +46,10 @@ export default function Login(props) {
             Check me out
           </label>
         </div>
-        
-        <a className="btn btn-primary" href="/logged" onClick={Login1}>
-        Submit
+
+        <a className="btn btn-primary" href="/home/profile" onClick={Login1}>
+          Submit
         </a>
-        
       </form>
     </div>
   );

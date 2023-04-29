@@ -3,7 +3,7 @@ import pic from "../../assets/profile.jpg";
 import "../../CSS/Profile.css";
 function ProfilePic() {
   return (
-    <div className="card shadow-sm">
+    <div className="card shadow-sm mx-1">
       <div className="card-header bg-transparent text-center">
         <img className="profile_img" src={pic} alt="progile pic" />
         <h3>Name</h3>
