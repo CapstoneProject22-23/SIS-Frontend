@@ -1,0 +1,20 @@
+.upload{
+    height: 250px;
+    width: 400px;
+    background-color: #2e3047;
+    border: 2px solid #038f81;
+    border-radius: 20px;
+}
+h5{
+    text-align: center;
+    margin-bottom: 20PX;
+}
+select{
+    margin-bottom: 10px; 
+}
+
+.btn-light:hover{
+    background-color: #2e3047;
+    color: white;
+    border: 1px solid wheat;
+}
