@@ -1,0 +1,21 @@
+.test1{
+    background-color: #2e3047;
+    color: #2e3047;
+    width: 400px;
+    height: 250px;
+    border: 1px solid #038f81;
+    border-radius: 20px;
+    text-align: center;
+}
+h5{
+    margin-top: 5px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.table-striped-columns tr th{
+    color: grey;
+}
+.table-striped-columns tr td{
+    color: white;
+}
