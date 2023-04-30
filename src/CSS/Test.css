@@ -1,4 +1,24 @@
+.testmod{
+    width: 100%;
+    background-color: aliceblue;
+}
+
 .test{
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+}
+
+h1{
+   text-align: center;
+}
+
+.btn-outlined-secondary {
+    background-color: #2e3047;
+    border: none;
+    color: white;
+    margin: 10px;
+}
+.btn-outlined-secondary:hover {
+    background-color: white;
+    border: 1px solid #2e3047;
+    color: #2e3047;
 }

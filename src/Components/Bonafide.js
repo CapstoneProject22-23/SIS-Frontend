@@ -1,8 +1,8 @@
 import React from "react";
 import "../CSS/Bonafide.css";
-import { Document, Page } from "react-pdf";
+// import { Document, Page } from "react-pdf";
 import { Await } from "react-router-dom";
-import pdf from "E:/Sem 5 data/All Documents of sem5 Available/Calculator.pdf";
+// import pdf from "E:/Sem 5 data/All Documents of sem5 Available/Calculator.pdf";
 export default function Bonafide() {
   const pdf = null;
   // function loadPdf() {
@@ -63,7 +63,7 @@ export default function Bonafide() {
             "E:/Sem 5 data/All Documents of sem5 Available/Calculator.pdf"
           )}
         > */}
-        <Document file="E:/Sem 5 data/All Documents of sem5 Available/Calculator.pdf" />
+        {/* <Document file="E:/Sem 5 data/All Documents of sem5 Available/Calculator.pdf" /> */}
         <button className="btn btn-primary ">Download Bonafide</button>
         {/* </a> */}
         <button className="btn btn-primary mx-3">View Bonafide</button>
