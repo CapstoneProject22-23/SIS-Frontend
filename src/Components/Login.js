@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import "../CSS/Login.css";
 import { Link } from "react-router-dom";
 export default function Login(props) {
+  const [userType, setUserType] = useState("none");
+
   function Login1() {
     let btn = document.getElementById("login");
 
-    if (btn.innerHTML == "Login") btn.innerHTML = "Logout";
+    if (btn.innerHTML === "Login") btn.innerHTML = "Logout";
   }
-
   return (
     <div className="loginForm">
       <form className="container">
@@ -17,6 +18,19 @@ export default function Login(props) {
           <h3>Login</h3>
         </div>
         <div className="mb-3">
+          <select
+            className="form-select"
+            aria-label="Default select example"
+            onChange={(event) => {
+              setUserType(event.target.value);
+            }}
+          >
+            <option default>Select user type</option>
+            <option value="admin">Admin</option>
+            <option value="principal">Principal</option>
+            <option value="hod">Head of Department</option>
+            <option value="staff">Faculty/Staff</option>
+          </select>
           <label htmlFor="exampleInputEmail1" className="form-label">
             Enrollment No
           </label>
